@@ -1,5 +1,35 @@
 # Flask App with MySQL – CI/CD Pipeline (GitHub Actions)
 
+# 🎯 Project Goal
+
+The primary goal of this project is to showcase:
+
+CI/CD automation using GitHub Actions
+
+Secure handling of secrets
+
+Service dependency management
+
+Environment-based configuration
+
+Practical DevOps workflows
+
+The Flask application serves as a realistic example to demonstrate these concepts rather than being the main focus of the project.
+
+# 🧠 Skills Demonstrated
+
+GitHub Actions CI/CD
+
+Python application automation
+
+MySQL service orchestration
+
+Secure secret management
+
+Cloud-ready configuration practices
+
+Debugging CI environment issues
+
 # 📌 What the App Does
 
 This is a simple Flask web application backed by a MySQL database.
@@ -68,33 +98,3 @@ Secrets are encrypted and masked in logs
 Configuration follows 12-factor app principles
 
 Secrets are injected into the pipeline as environment variables at runtime, which is the same pattern used in production cloud deployments.
-
-# 🎯 Project Goal
-
-The primary goal of this project is to showcase:
-
-CI/CD automation using GitHub Actions
-
-Secure handling of secrets
-
-Service dependency management
-
-Environment-based configuration
-
-Practical DevOps workflows
-
-The Flask application serves as a realistic example to demonstrate these concepts rather than being the main focus of the project.
-
-# 🧠 Skills Demonstrated
-
-GitHub Actions CI/CD
-
-Python application automation
-
-MySQL service orchestration
-
-Secure secret management
-
-Cloud-ready configuration practices
-
-Debugging CI environment issues
