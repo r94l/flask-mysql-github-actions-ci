@@ -50,11 +50,11 @@ jobs:
 
       - name: Set environment variables
         run: |
-          echo "MYSQL_HOST=127.0.0.1" >> $GITHUB_ENV
+          echo "MYSQL_HOST=mysql" >> $GITHUB_ENV
           echo "MYSQL_USER=${{ secrets.MYSQL_USER }}" >> $GITHUB_ENV
           echo "MYSQL_PASSWORD=${{ secrets.MYSQL_PASSWORD }}" >> $GITHUB_ENV
           echo "MYSQL_DB=default_db" >> $GITHUB_ENV
-      
+          
       - name: Wait for MySQL
         run: |
           echo "Waiting for MySQL..."
